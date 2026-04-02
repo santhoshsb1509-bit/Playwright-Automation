@@ -1,0 +1,152 @@
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40]: PIM
+            - listitem [ref=e41]:
+              - link "Time" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e48]: Time
+            - listitem [ref=e49]:
+              - link "Recruitment" [ref=e50] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e56]: Recruitment
+            - listitem [ref=e57]:
+              - link "My Info" [ref=e58] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e64]: My Info
+            - listitem [ref=e65]:
+              - link "Performance" [ref=e66] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e74]: Performance
+            - listitem [ref=e75]:
+              - link "Dashboard" [ref=e76] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e79]: Dashboard
+            - listitem [ref=e80]:
+              - link "Directory" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e84]: Directory
+            - listitem [ref=e85]:
+              - link "Maintenance" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e90]: Maintenance
+            - listitem [ref=e91]:
+              - link "Claim" [ref=e92] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e95]
+                - generic [ref=e99]: Claim
+            - listitem [ref=e100]:
+              - link "Buzz" [ref=e101] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e104]: Buzz
+    - banner [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - text: 
+          - heading "Recruitment" [level=6] [ref=e109]
+        - link "Upgrade" [ref=e111]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e112] [cursor=pointer]: Upgrade
+        - list [ref=e118]:
+          - listitem [ref=e119]:
+            - generic [ref=e120] [cursor=pointer]:
+              - img "profile picture" [ref=e121]
+              - paragraph [ref=e122]: Luiz Anjos
+              - generic [ref=e123]: 
+      - navigation "Topbar Menu" [ref=e125]:
+        - list [ref=e126]:
+          - listitem [ref=e127] [cursor=pointer]:
+            - link "Candidates" [ref=e128]:
+              - /url: "#"
+          - listitem [ref=e129] [cursor=pointer]:
+            - link "Vacancies" [ref=e130]:
+              - /url: "#"
+          - button "" [ref=e132] [cursor=pointer]:
+            - generic [ref=e133]: 
+  - generic [ref=e134]:
+    - generic [ref=e136]:
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - heading "Candidates" [level=5] [ref=e140]
+          - button "" [ref=e143] [cursor=pointer]:
+            - generic [ref=e144]: 
+        - separator [ref=e145]
+        - generic [ref=e147]:
+          - generic [ref=e149]:
+            - generic [ref=e151]:
+              - generic [ref=e153]: Job Title
+              - generic [ref=e156] [cursor=pointer]:
+                - generic [ref=e157]: "-- Select --"
+                - generic [ref=e159]: 
+            - generic [ref=e161]:
+              - generic [ref=e163]: Vacancy
+              - generic [ref=e166] [cursor=pointer]:
+                - generic [ref=e167]: "-- Select --"
+                - generic [ref=e169]: 
+            - generic [ref=e171]:
+              - generic [ref=e173]: Hiring Manager
+              - generic [ref=e176] [cursor=pointer]:
+                - generic [ref=e177]: "-- Select --"
+                - generic [ref=e179]: 
+            - generic [ref=e181]:
+              - generic [ref=e183]: Status
+              - generic [ref=e186] [cursor=pointer]:
+                - generic [ref=e187]: "-- Select --"
+                - generic [ref=e189]: 
+          - generic [ref=e191]:
+            - generic [ref=e193]:
+              - generic [ref=e195]: Candidate Name
+              - textbox "Type for hints..." [ref=e199]
+            - generic [ref=e201]:
+              - generic [ref=e203]: Keywords
+              - textbox "Enter comma seperated words..." [ref=e205]
+            - generic [ref=e207]:
+              - generic [ref=e209]: Date of Application
+              - generic [ref=e212]:
+                - textbox "From" [ref=e213]
+                - generic [ref=e214] [cursor=pointer]: 
+            - generic [ref=e221]:
+              - textbox "To" [ref=e222]
+              - generic [ref=e223] [cursor=pointer]: 
+          - generic [ref=e227]:
+            - generic [ref=e229]: Method of Application
+            - generic [ref=e232] [cursor=pointer]:
+              - generic [ref=e233]: "-- Select --"
+              - generic [ref=e235]: 
+          - separator [ref=e236]
+          - generic [ref=e237]:
+            - button "Reset" [ref=e238] [cursor=pointer]
+            - button "Search" [ref=e239] [cursor=pointer]
+      - generic [ref=e240]:
+        - button " Add" [ref=e242] [cursor=pointer]:
+          - generic [ref=e243]: 
+          - text: Add
+        - table [ref=e245]
+    - generic [ref=e250]:
+      - paragraph [ref=e251]: OrangeHRM OS 5.8
+      - paragraph [ref=e252]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=e253] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.

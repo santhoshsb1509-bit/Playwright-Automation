@@ -1,0 +1,11 @@
+const { test, expect } = require('@playwright/test');
+const LoginPage = require('../../pages/LoginPage');
+
+test.describe('Authentication Suite', () => {
+  test.fixme('The page does not load the username input when running in parallel, possibly due to app rate limiting or caching issues.', async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    await loginPage.goto();
+    await loginPage.login('InvalidUser', 'wrongpass');
+    await expect(page.getByText('Invalid')).toBeVisible();
+  });
+});

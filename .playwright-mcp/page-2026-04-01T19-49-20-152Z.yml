@@ -1,0 +1,121 @@
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40]: PIM
+            - listitem [ref=e41]:
+              - link "Time" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e48]: Time
+            - listitem [ref=e49]:
+              - link "Recruitment" [ref=e50] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e56]: Recruitment
+            - listitem [ref=e57]:
+              - link "My Info" [ref=e58] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e64]: My Info
+            - listitem [ref=e65]:
+              - link "Performance" [ref=e66] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e74]: Performance
+            - listitem [ref=e75]:
+              - link "Dashboard" [ref=e76] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e79]: Dashboard
+            - listitem [ref=e80]:
+              - link "Directory" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e84]: Directory
+            - listitem [ref=e85]:
+              - link "Maintenance" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e90]: Maintenance
+            - listitem [ref=e91]:
+              - link "Claim" [ref=e92] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e95]
+                - generic [ref=e99]: Claim
+            - listitem [ref=e100]:
+              - link "Buzz" [ref=e101] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e104]: Buzz
+    - banner [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - text: 
+          - generic [ref=e108]:
+            - heading "Time" [level=6] [ref=e109]
+            - heading "/ Timesheets" [level=6] [ref=e110]
+        - link "Upgrade" [ref=e112]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e113] [cursor=pointer]: Upgrade
+        - list [ref=e119]:
+          - listitem [ref=e120]:
+            - generic [ref=e121] [cursor=pointer]:
+              - img "profile picture" [ref=e122]
+              - paragraph [ref=e123]: Luiz Anjos
+              - generic [ref=e124]: 
+      - navigation "Topbar Menu" [ref=e126]:
+        - list [ref=e127]:
+          - listitem [ref=e128] [cursor=pointer]:
+            - generic [ref=e129]:
+              - text: Timesheets
+              - generic [ref=e130]: 
+          - listitem [ref=e131] [cursor=pointer]:
+            - generic [ref=e132]:
+              - text: Attendance
+              - generic [ref=e133]: 
+          - listitem [ref=e134] [cursor=pointer]:
+            - generic [ref=e135]:
+              - text: Reports
+              - generic [ref=e136]: 
+          - listitem [ref=e137] [cursor=pointer]:
+            - generic [ref=e138]:
+              - text: Project Info
+              - generic [ref=e139]: 
+          - button "" [ref=e141] [cursor=pointer]:
+            - generic [ref=e142]: 
+  - generic [ref=e143]:
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - heading "Select Employee" [level=6] [ref=e147]
+        - separator [ref=e148]
+        - generic [ref=e149]:
+          - generic [ref=e153]:
+            - generic [ref=e155]: Employee Name*
+            - textbox "Type for hints..." [ref=e159]
+          - separator [ref=e160]
+          - generic [ref=e161]:
+            - paragraph [ref=e162]: "* Required"
+            - button "View" [ref=e163] [cursor=pointer]
+      - generic [ref=e164]:
+        - heading "Timesheets Pending Action" [level=6] [ref=e166]
+        - table [ref=e168]
+    - generic [ref=e173]:
+      - paragraph [ref=e174]: OrangeHRM OS 5.8
+      - paragraph [ref=e175]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=e176] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
