@@ -13,6 +13,5 @@ test('Dropdown', async ({ page }) => {
        console.log(value);
        await page.locator('#dropdown', { name: 'Item 2' }).click();
        await page.waitForTimeout(5000)
-
-       
+  
 });
