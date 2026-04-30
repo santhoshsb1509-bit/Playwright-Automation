@@ -1,7 +1,7 @@
 import {test, expect, chromium} from '@playwright/test'
 import { signup } from '../../pages/signuppage'
 
-test ('testing signup', async () => {
+test ('testing signup', async ({page}) => {
         const browser=await chromium.launch()
         const context=await browser.newContext()
         const page=await context.newPage()
