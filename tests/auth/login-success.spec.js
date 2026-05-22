@@ -13,7 +13,7 @@ test.describe('Authentication Suite', () => {
 });
 
 test.describe('login using storage state', () => {
-  test('should log in successfully with stored credentials', async ({ browser }) => {
+  test('should log in successfully with stored credentials', async ({page, browser }) => {
     const context= await browser.newContext({ storageState: 'storageState.json' });
     const page= await context.newPage();
     await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index');

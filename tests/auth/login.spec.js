@@ -2,7 +2,7 @@ import {test, expect, chromium} from '@playwright/test'
 import { signup } from '../../pages/signuppage'
 
 test.skip ('testing signup', async ({}) => {
-        const browser=await chromium.launch()
+        const browser=await chromium.launch({channel: 'chrome'})
         const context=await browser.newContext()
         const page=await context.newPage()
         await page.goto('https://bolt.playrealbrokerage.com/login');
