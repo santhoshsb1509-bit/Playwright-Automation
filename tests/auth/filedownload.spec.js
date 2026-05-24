@@ -8,7 +8,7 @@ test('file download test', async ({ page }) => {
     const download= await downloadpromise; 
     const filename= download.suggestedFilename();
     console.log(filename)
-    await download.saveAs('H:\Playwright Automation\Download' + filename)
+    await download.saveAs('H://Playwright Automation/Download' + filename)
     await page.waitForTimeout(5000)
 
 })
