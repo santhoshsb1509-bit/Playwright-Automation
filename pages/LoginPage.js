@@ -6,8 +6,8 @@ class LoginPage {
     this.loginButton = page.locator('button[type="submit"]');
     //this.forgotPasswordLink = page.getByText('Forgot your password?');
     //this.errorMessage = page.locator('.oxd-alert-content-text');
-    //this.validationError = page.locator('.oxd-input-field-error-message');
-    //this.resetUsernameInput = page.locator('input[name="username"]'); // For forgot password page
+    //this. = page.locator('.oxd-input-field-error-message');
+    //this.resevalidationErrortUsernameInput = page.locator('input[name="username"]'); // For forgot password page
     //this.resetButton = page.getByRole('button', { name: 'Reset Password' });
     //this.successMessage = page.locator('.oxd-text--toast-message');
   }

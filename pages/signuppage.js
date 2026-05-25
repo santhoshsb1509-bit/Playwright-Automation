@@ -1,15 +1,6 @@
 exports.signup = class signup{
     constructor(page){
         this.page=page;
-        // this.fname= page.getByRole('textbox', { name: 'First Name *' })
-        // this.lname= page.getByRole('textbox', { name: 'Last Name *' })
-        // this.uname= page.getByRole('textbox', { name: 'Username *' })
-        // this.email= page.getByRole('textbox', { name: 'Email *' })
-        // this.pwd= page.getByRole('textbox', { name: 'Password *' })
-        // this.cpwd= page.getByRole('textbox', { name: 'Password Confirmation *' })
-        // this.chxbox= page.getByTestId('consentedToTerms')
-        // this.eschxbox= page.getByTestId('consentedToCallMessage')
-        // this.cabtn= page.locator("//span[contains(text(),'Create Account')]")
 
         this.fname = page.locator('[name="firstName"]')
         this.lname = page.locator('[name="lastName"]')
