@@ -9,7 +9,6 @@ for (const data of logindata) {
 test(`Data Driven Login Test for ${data.username}` , async ({page}) => {
 const loginPage = new LoginPage(page);
     await loginPage.goto();
-    
     await loginPage.login(data.username, data.password);
     await page.waitForTimeout(5000)
 })}
