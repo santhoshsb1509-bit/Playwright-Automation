@@ -13,9 +13,9 @@ test('API Login - OrangeHRM', async ({ request }) => {
     );
 
     console.log("Status:", response.status());
+    expect(response.status()).toBe(200);
     //console.log(response.json())
     const responseText = await response.text();
     console.log("Response:", responseText);
-
-    expect(response.status()).toBe(200);
+   
 });

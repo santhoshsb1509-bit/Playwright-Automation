@@ -4,17 +4,16 @@ class LoginPage {
     this.usernameInput = page.locator('input[name="username"]');
     this.passwordInput = page.locator('input[name="password"]');
     this.loginButton = page.locator('button[type="submit"]');
-    this.forgotPasswordLink = page.getByText('Forgot your password?');
-    this.errorMessage = page.locator('.oxd-alert-content-text');
-    this.validationError = page.locator('.oxd-input-field-error-message');
-    this.resetUsernameInput = page.locator('input[name="username"]'); // For forgot password page
-    this.resetButton = page.getByRole('button', { name: 'Reset Password' });
-    this.successMessage = page.locator('.oxd-text--toast-message');
+    //this.forgotPasswordLink = page.getByText('Forgot your password?');
+    //this.errorMessage = page.locator('.oxd-alert-content-text');
+    //this.validationError = page.locator('.oxd-input-field-error-message');
+    //this.resetUsernameInput = page.locator('input[name="username"]'); // For forgot password page
+    //this.resetButton = page.getByRole('button', { name: 'Reset Password' });
+    //this.successMessage = page.locator('.oxd-text--toast-message');
   }
 
   async goto() {
     await this.page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
-    await this.page.waitForFunction(() => document.querySelector('input[name="username"]'));
   }
 
   async enterUsername(username) {
