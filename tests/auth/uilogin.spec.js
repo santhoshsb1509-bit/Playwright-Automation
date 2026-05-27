@@ -8,7 +8,7 @@ test.describe('Authentication Suite', () => {
     const loginPage = new LoginPage(page);
     await loginPage.goto();
 
-    // Perform login using valid credentials
+    // Perform login by caling login function from loginpage class with valid credentials
     await loginPage.login('Admin', 'admin123');
 
     // Verify user is redirected to dashboard page after login

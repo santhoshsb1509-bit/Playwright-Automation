@@ -6,6 +6,7 @@ test('Login to OrangeHRM', async ({ }) => {
   const page = await context.newPage();
   await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'); 
   
+  
   // Waiting for a new page/tab event before clicking the link
   const windowhandle=  context.waitForEvent('page');
   await page.getByRole('link', { name: 'OrangeHRM, Inc' }).click();
