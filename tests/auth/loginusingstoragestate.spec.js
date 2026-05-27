@@ -8,6 +8,8 @@ test.describe('login using storage state', () => {
 
     //Open a new page inside the authenticated browser context
     const page= await context.newPage();
+
+    //Navigating to dashboard without login to the application using storageState
     await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index');
     await page.waitForTimeout(5000)
   });
